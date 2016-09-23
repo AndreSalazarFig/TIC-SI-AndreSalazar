@@ -1,0 +1,9 @@
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\PracticaEDD\PracticaEDD2\bin\Debug\PracticaEDD2.exe.config
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\PracticaEDD\PracticaEDD2\bin\Debug\PracticaEDD2.exe
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\PracticaEDD\PracticaEDD2\bin\Debug\PracticaEDD2.pdb
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\PracticaEDD\PracticaEDD2\obj\Debug\PracticaEDD2.csprojResolveAssemblyReference.cache
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\PracticaEDD\PracticaEDD2\obj\Debug\PracticaEDD2.Form1.resources
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\PracticaEDD\PracticaEDD2\obj\Debug\PracticaEDD2.Properties.Resources.resources
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\PracticaEDD\PracticaEDD2\obj\Debug\PracticaEDD2.csproj.GenerateResource.Cache
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\PracticaEDD\PracticaEDD2\obj\Debug\PracticaEDD2.exe
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\PracticaEDD\PracticaEDD2\obj\Debug\PracticaEDD2.pdb

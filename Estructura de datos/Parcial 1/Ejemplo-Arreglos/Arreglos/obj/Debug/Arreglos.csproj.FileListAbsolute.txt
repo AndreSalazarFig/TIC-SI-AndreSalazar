@@ -1,0 +1,9 @@
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\Unidad2\Arreglos\bin\Debug\Arreglos.exe.config
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\Unidad2\Arreglos\bin\Debug\Arreglos.exe
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\Unidad2\Arreglos\bin\Debug\Arreglos.pdb
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\Unidad2\Arreglos\obj\Debug\Arreglos.csprojResolveAssemblyReference.cache
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\Unidad2\Arreglos\obj\Debug\Arreglos.Form1.resources
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\Unidad2\Arreglos\obj\Debug\Arreglos.Properties.Resources.resources
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\Unidad2\Arreglos\obj\Debug\Arreglos.csproj.GenerateResource.Cache
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\Unidad2\Arreglos\obj\Debug\Arreglos.exe
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\Unidad2\Arreglos\obj\Debug\Arreglos.pdb

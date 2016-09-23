@@ -1,0 +1,6 @@
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\Practica2\Ejercicio1\bin\Debug\Ejercicio1.exe.config
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\Practica2\Ejercicio1\bin\Debug\Ejercicio1.exe
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\Practica2\Ejercicio1\bin\Debug\Ejercicio1.pdb
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\Practica2\Ejercicio1\obj\Debug\Ejercicio1.csprojResolveAssemblyReference.cache
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\Practica2\Ejercicio1\obj\Debug\Ejercicio1.exe
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\Practica2\Ejercicio1\obj\Debug\Ejercicio1.pdb

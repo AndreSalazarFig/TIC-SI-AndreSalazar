@@ -1,0 +1,9 @@
+c:\users\emmanuel\documents\visual studio 2015\Projects\PracticaEDD\PracticaEDD1\bin\Debug\PracticaEDD1.exe.config
+c:\users\emmanuel\documents\visual studio 2015\Projects\PracticaEDD\PracticaEDD1\bin\Debug\PracticaEDD1.exe
+c:\users\emmanuel\documents\visual studio 2015\Projects\PracticaEDD\PracticaEDD1\bin\Debug\PracticaEDD1.pdb
+c:\users\emmanuel\documents\visual studio 2015\Projects\PracticaEDD\PracticaEDD1\obj\Debug\PracticaEDD1.csprojResolveAssemblyReference.cache
+c:\users\emmanuel\documents\visual studio 2015\Projects\PracticaEDD\PracticaEDD1\obj\Debug\PracticaEDD1.Form1.resources
+c:\users\emmanuel\documents\visual studio 2015\Projects\PracticaEDD\PracticaEDD1\obj\Debug\PracticaEDD1.Properties.Resources.resources
+c:\users\emmanuel\documents\visual studio 2015\Projects\PracticaEDD\PracticaEDD1\obj\Debug\PracticaEDD1.csproj.GenerateResource.Cache
+c:\users\emmanuel\documents\visual studio 2015\Projects\PracticaEDD\PracticaEDD1\obj\Debug\PracticaEDD1.exe
+c:\users\emmanuel\documents\visual studio 2015\Projects\PracticaEDD\PracticaEDD1\obj\Debug\PracticaEDD1.pdb

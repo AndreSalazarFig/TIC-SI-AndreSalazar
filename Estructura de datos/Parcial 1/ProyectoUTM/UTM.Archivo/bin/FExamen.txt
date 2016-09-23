@@ -1,0 +1,21 @@
+Parcial 1
+Formacion Sociocultural III-Fecha de Examen:01/06/2016 Hora: 12:40pm Lab: Electronica
+Administracion de la Función Informatica-Fecha de Examen 02/06/2016 Hora: 11:00am Lab:4
+Desarrollo de Apliaciones I-Fecha de Examen: 03/06/2016 Hora: 09:00am Lab: 6
+Desarrollo de Aplicaciones web-Fecha de Examen: 06/06/2016 Hora: 09:00am Lab: 1
+Sistemas Operativos-Fecha de Examen: 08/06/2016 Hora 11:00am Lab:7
+Base de Datos II-Fecha de Examen: 09/06/2016 Hora: 07:00am Lab: 4
+Parcial 2
+Formacion Sociocultural III-Fecha de Examen:22/06/2016 Hora: 12:40pm Lab: Electronica
+Administracion de la Función Informatica-Fecha de Examen 23/06/2016 Hora: 11:00am Lab:4
+Desarrollo de Apliaciones I-Fecha de Examen: 01/07/2016 Hora: 09:00am Lab: 6
+Desarrollo de Aplicaciones web-Fecha de Examen: 27/06/2016 Hora: 09:00am Lab: 1
+Sistemas Operativos-Fecha de Examen: 29/06/2016 Hora 11:00am Lab:7
+Base de Datos II-Fecha de Examen: 30/06/2016 Hora: 07:00am Lab: 4
+Parcial 3
+Formacion Sociocultural III-Fecha de Examen:03/08/2016 Hora: 12:40pm Lab: Electronica
+Administracion de la Función Informatica-Fecha de Examen 04/08/2016 Hora: 11:00am Lab:4
+Desarrollo de Apliaciones I-Fecha de Examen: 05/08/2016 Hora: 09:00am Lab: 6
+Desarrollo de Aplicaciones web-Fecha de Examen: 08/08/2016 Hora: 09:00am Lab: 1
+Sistemas Operativos-Fecha de Examen: 10/08/2016 Hora 11:00am Lab:7
+Base de Datos II-Fecha de Examen: 11/08/2016 Hora: 07:00am Lab: 4

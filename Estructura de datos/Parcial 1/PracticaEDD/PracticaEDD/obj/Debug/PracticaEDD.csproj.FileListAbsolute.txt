@@ -1,0 +1,11 @@
+c:\users\emmanuel\documents\visual studio 2015\Projects\PracticaEDD\PracticaEDD\bin\Debug\PracticaEDD.exe.config
+c:\users\emmanuel\documents\visual studio 2015\Projects\PracticaEDD\PracticaEDD\bin\Debug\PracticaEDD.exe
+c:\users\emmanuel\documents\visual studio 2015\Projects\PracticaEDD\PracticaEDD\bin\Debug\PracticaEDD.pdb
+c:\users\emmanuel\documents\visual studio 2015\Projects\PracticaEDD\PracticaEDD\obj\Debug\PracticaEDD.Form1.resources
+c:\users\emmanuel\documents\visual studio 2015\Projects\PracticaEDD\PracticaEDD\obj\Debug\PracticaEDD.Properties.Resources.resources
+c:\users\emmanuel\documents\visual studio 2015\Projects\PracticaEDD\PracticaEDD\obj\Debug\PracticaEDD.csproj.GenerateResource.Cache
+c:\users\emmanuel\documents\visual studio 2015\Projects\PracticaEDD\PracticaEDD\obj\Debug\PracticaEDD.exe
+c:\users\emmanuel\documents\visual studio 2015\Projects\PracticaEDD\PracticaEDD\obj\Debug\PracticaEDD.pdb
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\PracticaEDD\PracticaEDD\bin\Debug\PracticaEDD.exe.config
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\PracticaEDD\PracticaEDD\obj\Debug\PracticaEDD.exe
+C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\PracticaEDD\PracticaEDD\obj\Debug\PracticaEDD.pdb

@@ -1,0 +1,60 @@
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.csprojResolveAssemblyReference.cache
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.frmSQLite.resources
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.frmSQLiteEditar.resources
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.ReporteAlumno.resources
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.Properties.Resources.resources
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.csproj.GenerateResource.Cache
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.exe.config
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.exe
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.pdb
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.exe
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.pdb
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.exe.config
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.exe
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.pdb
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.exe
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.pdb
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.csprojResolveAssemblyReference.cache
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.frmSQLite.resources
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.frmSQLiteEditar.resources
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.ReporteAlumno.resources
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.Properties.Resources.resources
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.csproj.GenerateResource.Cache
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.exe.config
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.exe
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.pdb
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.exe
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.pdb
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.csprojResolveAssemblyReference.cache
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.frmSQLite.resources
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.frmSQLiteEditar.resources
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.ReporteAlumno.resources
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.Properties.Resources.resources
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.csproj.GenerateResource.Cache
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.exe.config
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.exe
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.pdb
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\bin\Debug\FlashControlV71.dll
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\bin\Debug\stdole.dll
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.csprojResolveAssemblyReference.cache
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.Properties.Resources.resources
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.csproj.GenerateResource.Cache
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.exe
+C:\Users\Emmanuel\Downloads\Desarrollo de aplicaciones II\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.pdb
