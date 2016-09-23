@@ -26,6 +26,7 @@ namespace Arreglos
                         Console.WriteLine("7. Ejercicio 7");
                         Console.WriteLine("");
                         opcion = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("");
                         if (opcion == 1) { goto case 1; }
                         if (opcion == 2) { goto case 2; }
                         if (opcion == 3) { goto case 3; }
@@ -37,8 +38,16 @@ namespace Arreglos
                     goto case 0;
                 case 1:
                     {
-                        
+                        Console.WriteLine("Se calculará la cantidad de ceros del siguiente arreglo");
+                        Console.WriteLine("{0,2,5,7,6}");
+                        Console.WriteLine("{0,0,0,3,8}");
+                        Console.WriteLine("{2,9,6,3,4}");
+                        Console.WriteLine("{1,5,6,1,4}");
+                        Console.WriteLine("{0,9,2,5,0}");
                         Console.WriteLine("");
+                        Console.WriteLine("La cantidad de ceros es: "+Ejercicio1().ToString());
+                        Console.WriteLine("");
+                        Console.ReadLine();
                     }
                     goto case 0;
                 case 2:
@@ -88,7 +97,28 @@ namespace Arreglos
             }
         }
 
-
+        static int Ejercicio1()
+        {
+            int cantidadCeros = 0, longitud = 5;
+            int[,] Arreglo = new int[,] {
+                {0,2,5,7,6},
+                {0,0,0,3,8},
+                {2,9,6,3,4},
+                {1,5,6,1,4},
+                {0,9,2,5,0}
+            };
+            for (int i = 0; i < longitud;i ++)
+            {
+                for (int e = 0; e < longitud; e++)
+                {
+                    if (Arreglo[i,e] == 0)
+                    {
+                        cantidadCeros++;
+                    }
+                }
+            }
+            return cantidadCeros;
+        }
 
 
     }
