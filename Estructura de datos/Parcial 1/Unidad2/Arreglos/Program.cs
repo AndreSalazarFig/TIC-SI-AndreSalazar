@@ -52,26 +52,30 @@ namespace Arreglos
                     goto case 0;
                 case 2:
                     {
-
+                        
                         Console.WriteLine("");
                     }
                     goto case 0;
                 case 3:
                     {
-
+                        Console.WriteLine("Suma de Matrices 2x2");
+                        Ejercicio3();
                         Console.WriteLine("");
+                        Console.ReadLine();
                     }
                     goto case 0;
                 case 4:
                     {
-
+                        Ejercicio4();
                         Console.WriteLine("");
+                        Console.ReadLine();
                     }
                     goto case 0;
                 case 5:
                     {
-
+                        Ejercicio5();
                         Console.WriteLine("");
+                        Console.ReadLine();
                     }
                     goto case 0;
                 case 6:
@@ -120,6 +124,167 @@ namespace Arreglos
             return cantidadCeros;
         }
 
+        static void Ejercicio3()
+        {
+            Console.WriteLine("");
+            double[,] Matriz1 = new double[2, 2],
+                   Matriz2 = new double[2, 2];
+            for (int a = 0; a < 2; a++)
+            {
+                for (int i = 0; i < 2; i++)
+                {
+                    for (int j = 0; j < 2; j++)
+                    {
+                        if (a == 0)
+                        {
+                            if (i == 0)
+                            {
+                                Console.WriteLine("Ingrese el valor {0} de la matriz uno", j + 1 + i);
+                                double valor = Convert.ToDouble(Console.ReadLine());
+                                Matriz1[i, j] = valor;
+                            }
+                            else
+                            {
+                                Console.WriteLine("Ingrese el valor {0} de la matriz uno", j + 2 + i);
+                                double valor = Convert.ToDouble(Console.ReadLine());
+                                Matriz1[i, j] = valor;
+                            }
+                        }
+                        else
+                        {
+                            if (i == 0)
+                            {
+                                Console.WriteLine("Ingrese el valor {0} de la matriz dos", j + 1 + i);
+                                int valor = Convert.ToInt32(Console.ReadLine());
+                                Matriz2[i, j] = valor;
+                            }
+                            else
+                            {
+                                Console.WriteLine("Ingrese el valor {0} de la matriz dos", j + 2 + i);
+                                int valor = Convert.ToInt32(Console.ReadLine());
+                                Matriz2[i, j] = valor;
+                            }
+                        }
+                    }
+                }
+            }
+            Console.WriteLine("");
+            Console.WriteLine("Las matrices son:");
+            Console.WriteLine("{ " + Matriz1[0, 0] + " , " + Matriz1[0, 1] + " }    { " + Matriz2[0, 0] + " , " + Matriz2[0, 1] + " }");
+            Console.WriteLine("{ " + Matriz1[1, 0] + " , " + Matriz1[1, 1] + " }    { " + Matriz2[1, 0] + " , " + Matriz2[1, 1] + " }");
+            Console.WriteLine("");
+            Console.WriteLine("Suma:");
+            MostrarArreglo2x2(Eje3Suma(Matriz1, Matriz2));
+            Console.WriteLine("Resta:");
+            MostrarArreglo2x2(Eje3Resta(Matriz1, Matriz2));
+            Console.WriteLine("Multiplicación:");
+            MostrarArreglo2x2(Eje3Multiplicacion(Matriz1, Matriz2));
+            Console.WriteLine("División:");
+            MostrarArreglo2x2(Eje3Division(Matriz1, Matriz2));
 
+        }
+
+        static double[,] Eje3Suma(double[,] matriz1, double[,] matriz2)
+        {
+            double[,] suma = new double[2, 2];
+            for (int i = 0; i < 2; i++)
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    suma[i, j] = matriz1[i, j] + matriz2[i, j];
+                }
+            }
+            return suma;
+        }
+        static double[,] Eje3Resta(double[,] matriz1, double[,] matriz2)
+        {
+            double[,] resta = new double[2, 2];
+            for (int i = 0; i < 2; i++)
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    resta[i, j] = matriz1[i, j] - matriz2[i, j];
+                }
+            }
+            return resta;
+        }
+        static double[,] Eje3Multiplicacion(double[,] matriz1, double[,] matriz2)
+        {
+            double[,] mult = new double[2, 2];
+            for (int i = 0; i < 2; i++)
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    mult[i, j] = matriz1[i, j] * matriz2[i, j];
+                }
+            }
+            return mult;
+        }
+        static double[,] Eje3Division(double[,] matriz1, double[,] matriz2)
+        {
+            double[,] div = new double[2, 2];
+            for (int i = 0; i < 2; i++)
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    div[i, j] = matriz1[i, j] / matriz2[i, j];
+                }
+            }
+            return div;
+        }
+        static void MostrarArreglo2x2(double[,] arreglo)
+        {
+            Console.WriteLine("{ " + arreglo[0, 0] + " , " + arreglo[0, 1] + " }");
+            Console.WriteLine("{ " + arreglo[1, 0] + " , " + arreglo[1, 1] + " }");
+            Console.WriteLine("");
+        }
+        static void MostrarArregloInt(int[,] arreglo, int tamaño)
+        {
+            for (int i = 0; i < tamaño; i++)
+            {
+                Console.Write("{ ");
+                for (int j = 0; j < tamaño; j++)
+                {
+                    if (j == tamaño - 1)
+                    {
+                        Console.Write(arreglo[i, j] + "");
+                    }
+                    else
+                    {
+                        Console.Write(arreglo[i, j] + ", ");
+                    }
+                }
+                Console.Write(" }");
+                Console.WriteLine("");
+            }
+        }
+        static void Ejercicio4()
+        {
+            Console.WriteLine("Ingrese el tamaño del arreglo (cuadrado)");
+            int tam = Convert.ToInt32(Console.ReadLine());
+            int[,] matriz = new int[tam, tam];
+            for (int i = 0; i < tam; i++)
+            {
+                for (int j = 0; j < tam; j++)
+                {
+                    if (j == i)
+                    {
+                        matriz[i, j] = 1;
+                    }
+                    else
+                    {
+                        matriz[i, j] = 0;
+                    }
+                }
+            }
+            MostrarArregloInt(matriz, tam);
+
+        }
+
+        static void Ejercicio5()
+        {
+            int[,] arreglo = new int[5, 10];
+
+        }
     }
 }

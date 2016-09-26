@@ -2,3 +2,12 @@ C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\Uni
 C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\Unidad2\Arreglos\obj\Debug\Arreglos.exe
 C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\Unidad2\Arreglos\obj\Debug\Arreglos.pdb
 C:\Users\Andre\Desktop\UTM\Cuarto cuatrimestre\Estructura de datos\Parcial 1\Unidad2\Arreglos\bin\Debug\Ejemplos.exe.config
+C:\Users\Andre\Desktop\UTM\TIC-SI-AndreSalazar\Estructura de datos\Parcial 1\Ejemplo-Arreglos\Arreglos\bin\Debug\Ejemplos.exe.config
+C:\Users\Andre\Desktop\UTM\TIC-SI-AndreSalazar\Estructura de datos\Parcial 1\Ejemplo-Arreglos\Arreglos\bin\Debug\Ejemplos.exe
+C:\Users\Andre\Desktop\UTM\TIC-SI-AndreSalazar\Estructura de datos\Parcial 1\Ejemplo-Arreglos\Arreglos\bin\Debug\Ejemplos.pdb
+C:\Users\Andre\Desktop\UTM\TIC-SI-AndreSalazar\Estructura de datos\Parcial 1\Ejemplo-Arreglos\Arreglos\obj\Debug\Ejemplos.csprojResolveAssemblyReference.cache
+C:\Users\Andre\Desktop\UTM\TIC-SI-AndreSalazar\Estructura de datos\Parcial 1\Ejemplo-Arreglos\Arreglos\obj\Debug\Arreglos.Form1.resources
+C:\Users\Andre\Desktop\UTM\TIC-SI-AndreSalazar\Estructura de datos\Parcial 1\Ejemplo-Arreglos\Arreglos\obj\Debug\Ejemplos.Properties.Resources.resources
+C:\Users\Andre\Desktop\UTM\TIC-SI-AndreSalazar\Estructura de datos\Parcial 1\Ejemplo-Arreglos\Arreglos\obj\Debug\Ejemplos.csproj.GenerateResource.Cache
+C:\Users\Andre\Desktop\UTM\TIC-SI-AndreSalazar\Estructura de datos\Parcial 1\Ejemplo-Arreglos\Arreglos\obj\Debug\Ejemplos.exe
+C:\Users\Andre\Desktop\UTM\TIC-SI-AndreSalazar\Estructura de datos\Parcial 1\Ejemplo-Arreglos\Arreglos\obj\Debug\Ejemplos.pdb
