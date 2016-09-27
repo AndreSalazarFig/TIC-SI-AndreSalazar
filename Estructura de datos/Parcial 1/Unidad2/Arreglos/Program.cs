@@ -258,6 +258,82 @@ namespace Arreglos
                 Console.WriteLine("");
             }
         }
+        static void MostrarArregloInt(int[,] arreglo, int columnas, int filas)
+        {
+            Console.WriteLine("                                           |Suma|Prom.|");
+            Console.WriteLine("-----------------------------------------  ------------");
+            for (int i = 0; i < filas; i++)
+            {
+                double prom = 0, suma = 0 ;
+                Console.Write("| ");
+                for (int j = 0; j < columnas; j++)
+                {
+                    suma += arreglo[i, j];
+                    if (j == columnas - 1)
+                    {
+                        prom = suma / 10;
+                        Console.Write(arreglo[i, j] + "");
+
+                    }
+                    else
+                    {
+                        Console.Write(arreglo[i, j] + " | ");
+                    }
+                }
+                Console.WriteLine(" |  | " + suma + " | " + prom + " |");
+                Console.WriteLine("-----------------------------------------  ------------");
+            }
+            Console.WriteLine("");
+            Console.WriteLine("-----------------------------------------");
+            double[] sum = new double[10];
+            for (int i = 0; i < columnas; i++)
+            {
+                int cont = 0;
+                for (cont = 0; cont < filas; cont++)
+                {
+                    sum[i] += arreglo[cont, i];
+                }
+            }
+            Console.Write("| ");
+            for (int j = 0; j < columnas; j++)
+            {
+                if (j == columnas - 1)
+                {
+                    Console.Write(sum[j] + "|");
+
+                }
+                else
+                {
+                    Console.Write(sum[j] + "| ");
+                }
+            }
+            Console.WriteLine("");
+            Console.WriteLine("-----------------------------------------");
+            double prome = 0;
+            for (int j = 0; j < columnas; j++)
+            {
+                prome = sum[j] / 5;
+                if (prome.ToString().Length == 1)
+                {
+                    Console.Write("|  "+prome);
+                }
+                else
+                {
+                    if (j == columnas - 1)
+                    {
+                        Console.Write("|"+prome + "|");
+
+                    }
+                    else
+                    {
+                        Console.Write("|"+prome);
+                    }
+                }
+            }
+            Console.WriteLine("");
+            Console.WriteLine("-----------------------------------------");
+
+        }
         static void Ejercicio4()
         {
             Console.WriteLine("Ingrese el tamaño del arreglo (cuadrado)");
@@ -283,7 +359,30 @@ namespace Arreglos
 
         static void Ejercicio5()
         {
+            Random RdmValor = new Random();
             int[,] arreglo = new int[5, 10];
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {   
+                    try
+                    {
+                        if (arreglo[i, j - 1] == RdmValor.Next(1, 10))
+                        {
+                            arreglo[i, j] = RdmValor.Next(1, 10);
+                        }
+                        else
+                        {
+                            arreglo[i, j] = RdmValor.Next(1, 10);
+                        }
+                    }
+                    catch
+                    {
+                        arreglo[i, j] = RdmValor.Next(1, 10);
+                    }
+                }
+            }
+            MostrarArregloInt(arreglo, 10, 5);
 
         }
     }
