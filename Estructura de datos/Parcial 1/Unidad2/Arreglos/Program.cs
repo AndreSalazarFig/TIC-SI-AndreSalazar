@@ -52,8 +52,9 @@ namespace Arreglos
                     goto case 0;
                 case 2:
                     {
-                        
+                        Ejercicio2();
                         Console.WriteLine("");
+                        Console.ReadLine();
                     }
                     goto case 0;
                 case 3:
@@ -80,14 +81,16 @@ namespace Arreglos
                     goto case 0;
                 case 6:
                     {
-
+                        Ejercicio6();
                         Console.WriteLine("");
+                        Console.ReadLine();
                     }
                     goto case 0;
                 case 7:
                     {
-
+                        Ejercicio7();
                         Console.WriteLine("");
+                        Console.ReadLine();
                     }
                     goto case 0;
                 default:
@@ -122,6 +125,70 @@ namespace Arreglos
                 }
             }
             return cantidadCeros;
+        }
+
+        static void Ejercicio2()
+        {
+            Console.WriteLine("Seleccione una opción");
+            Console.WriteLine("");
+            Console.WriteLine("1. Crear una matríz");
+            Console.WriteLine("2. Mostrar una matríz predefinida");
+            int op = Convert.ToInt32(Console.ReadLine());
+            switch (op)
+            {
+                case 1:
+                    {
+                        int[,] matriz = new int[3, 3];
+                        for (int i = 0; i < 3; i++)
+                        {
+                            for (int j = 0; j < 3; j++)
+                            {
+                                if (i == 0)
+                                {
+                                    Console.WriteLine("Ingrese el valor {0} de la matríz", j + 1 + i);
+                                    int valor = Convert.ToInt32(Console.ReadLine());
+                                    matriz[i, j] = valor;
+                                }
+                                else
+                                {
+                                    if (i == 1)
+                                    {
+                                        Console.WriteLine("Ingrese el valor {0} de la matríz", j + 3 + i);
+                                        int valor = Convert.ToInt32(Console.ReadLine());
+                                        matriz[i, j] = valor;
+                                    }
+                                    else
+                                    {
+                                        if (i == 2)
+                                        {
+                                            Console.WriteLine("Ingrese el valor {0} de la matríz", j + 5 + i);
+                                            int valor = Convert.ToInt32(Console.ReadLine());
+                                            matriz[i, j] = valor;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        MostrarArregloEje2(matriz);
+
+
+
+
+                    }
+                    break;
+                case 2:
+                    {
+                        int[,] matriz = new int[,] { { 4, 9, 2 }, { 3, 5, 7 }, { 8, 1, 6 } };
+                        MostrarArregloEje2(matriz);
+                    }
+                    break;
+                default:
+                    {
+                        Console.WriteLine("No ha seleccionado una opción válida, se cerrará el ejercicio");
+                    }
+                    break;
+            }
+            
         }
 
         static void Ejercicio3()
@@ -258,6 +325,200 @@ namespace Arreglos
                 Console.WriteLine("");
             }
         }
+        static void MostrarArreglo12x5(int[,] arreglo, int filas, int columnas)
+        {
+            Console.WriteLine("--------------------------");
+            for (int i = 0; i < filas; i++)
+            {
+                Console.Write("| ");
+                for (int j = 0; j < columnas; j++)
+                {
+                    if (j == columnas - 1)
+                    {
+                        if (arreglo[i, j].ToString().Length == 1)
+                        {
+                            Console.WriteLine(arreglo[i, j] + "  |");
+                        }
+                        else
+                        {
+                            Console.WriteLine(arreglo[i, j] + " |");
+                        }
+                    }
+                    else
+                    {
+                        if (arreglo[i, j].ToString().Length == 1)
+                        {
+                            Console.Write(arreglo[i, j] + "  | ");
+                        }
+                        else
+                        {
+                            Console.Write(arreglo[i, j] + " | ");
+                        }
+                        
+                    }
+                }
+                Console.WriteLine("--------------------------");
+            }
+        }
+        static void MostrarArregloEje2(int[,] matriz)
+        {
+            int filas = 3, columnas = 3, iguales = 0, valor = 0 ;
+            Console.WriteLine("-------------");
+            for (int i = 0; i < filas; i++)
+            {
+                int suma = 0;
+                Console.Write("| ");
+                for (int j = 0; j < columnas; j++)
+                {
+                    suma += matriz[i, j];
+                    if (j == columnas - 1)
+                    {
+                        Console.Write(matriz[i, j] + "");
+
+                    }
+                    else
+                    {
+                        Console.Write(matriz[i, j] + " | ");
+                    }
+                }
+                if (i == 0)
+                {
+                    valor = suma;
+                    iguales = 1;
+                }
+                else
+                {
+                    if (suma == valor)
+                    {
+                        iguales++;
+                    }
+                }
+                Console.WriteLine(" |  | " + suma + " |");
+                Console.WriteLine("-------------");
+            }
+            Console.WriteLine("");
+            double[] sum = new double[3];
+            for (int i = 0; i < columnas; i++)
+            {
+                int cont = 0;
+                for (cont = 0; cont < filas; cont++)
+                {
+                    sum[i] += matriz[cont, i];
+                }
+            }
+            Console.WriteLine("-------------");
+            Console.Write("| ");
+            for (int j = 0; j < columnas; j++)
+            {
+                if (j == columnas - 1)
+                {
+                    Console.Write(sum[j] + "|");
+
+                }
+                else
+                {
+                    Console.Write(sum[j] + "| ");
+                }
+                if (sum[j] == valor)
+                {
+                    iguales++;
+                }
+            }
+            int dp = matriz[0, 0] + matriz[1, 1] + matriz[2, 2];
+            Console.Write("  | " + (dp) + " |");
+            Console.WriteLine("");
+            Console.WriteLine("-------------");
+            if (dp == valor)
+            {
+                iguales++;
+            }
+            if (iguales == 7)
+            {
+                Console.WriteLine("La constante mágica es: " + valor);
+            }
+            else
+            {
+                Console.WriteLine("La matríz no tiene constante mágica ");
+            }
+        }
+        static string ValidarDía(int dia)
+        {
+            string d = "";
+            if (dia == 0)
+            {
+                d = "Lunes";
+            }
+            if (dia == 1)
+            {
+                d = "Martes";
+            }
+            if (dia == 2)
+            {
+                d = "Miércoles";
+            }
+            if (dia == 3)
+            {
+                d = "Jueves";
+            }
+            if (dia == 4)
+            {
+                d = "Viernes";
+            }
+            return d;
+        }
+        static string ValidarMes(int mes)
+        {
+            string m = "";
+            if (mes == 0)
+            {
+                m = "Enero";
+            }
+            if (mes == 1)
+            {
+                m = "Febrero";
+            }
+            if (mes == 2)
+            {
+                m = "Marzo";
+            }
+            if (mes == 3)
+            {
+                m = "Abril";
+            }
+            if (mes == 4)
+            {
+                m = "Mayo";
+            }
+            if (mes == 5)
+            {
+                m = "Junio";
+            }
+            if (mes == 6)
+            {
+                m = "Julio";
+            }
+            if (mes == 7)
+            {
+                m = "Agosto";
+            }
+            if (mes == 8)
+            {
+                m = "Septiembre";
+            }
+            if (mes == 9)
+            {
+                m = "Octubre";
+            }
+            if (mes == 10)
+            {
+                m = "Noviembre";
+            }
+            if (mes == 11)
+            {
+                m = "Diciembre";
+            }
+            return m;
+        }
         static void MostrarArregloInt(int[,] arreglo, int columnas, int filas)
         {
             Console.WriteLine("                                           |Suma|Prom.|");
@@ -385,5 +646,68 @@ namespace Arreglos
             MostrarArregloInt(arreglo, 10, 5);
 
         }
+
+        static void Ejercicio6()
+        {
+            int[,] matriz = new int[,] {
+                { 5 , 16 , 10 , 12 , 24 },
+                { 40 , 55 , 10 , 11 , 18 },
+                { 15 , 41 , 78 , 14 , 51  },
+                { 35 , 22 , 81 , 15 , 12 },
+                { 50 , 12 , 71 , 10 , 20 },
+                { 70 , 40 , 60 , 28 , 22  },
+                { 50 , 50 , 50 , 36 , 25 },
+                { 40 , 70 , 40 , 11 , 20 },
+                { 20 , 20 , 30 , 12 , 18  },
+                { 10 , 40 , 32 , 13 , 16 },
+                { 50 , 3 , 24 , 15 , 82 },
+                { 40 , 46 , 15 , 46 , 22  }
+            };
+            MostrarArreglo12x5(matriz, 12, 5);
+            string diaMe = "", mesMe = "", diaMa = "", mesMa = "";
+            int menor = 0, mayor = 0, ventaTotal = 0;
+            for (int i = 0; i < 12; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    if (i == 0 && j == 0) { menor = matriz[i, j]; mayor = menor; diaMa = ValidarDía(j); mesMa = ValidarMes(i); diaMe = ValidarDía(j); mesMe = ValidarMes(i); }
+                    if (matriz[i,j] > mayor) { mayor = matriz[i, j]; diaMa = ValidarDía(j); mesMa = ValidarMes(i); }
+                    if (matriz[i, j] < menor) { menor = matriz[i, j]; diaMe = ValidarDía(j); mesMe = ValidarMes(i); }
+                    ventaTotal += matriz[i, j];
+                }
+            }
+            double[] sum = new double[5];
+            for (int i = 0; i < 5; i++)
+            {
+                for (int cont = 0; cont < 12; cont++)
+                {
+                    sum[i] += matriz[cont, i];
+                }
+            }
+            Console.WriteLine("La menor venta es de ${0} el día {1} del mes {2}", menor, diaMe, mesMe);
+            Console.WriteLine("La mayor venta es de ${0} el día {1} del mes {2}", mayor, diaMa, mesMa);
+            Console.WriteLine("La venta total es de ${0}", ventaTotal);
+
+        }
+
+        static void Ejercicio7()
+        {
+            int[,] matriz = new int[,] {
+                { 5 , 16 , 10 , 12 , 24 },
+                { 40 , 55 , 10 , 11 , 18 },
+                { 15 , 41 , 78 , 14 , 51  },
+                { 35 , 22 , 81 , 15 , 12 },
+                { 50 , 12 , 71 , 10 , 20 },
+                { 70 , 40 , 60 , 28 , 22  },
+                { 50 , 50 , 50 , 36 , 25 },
+                { 40 , 70 , 40 , 11 , 20 },
+                { 20 , 20 , 30 , 12 , 18  },
+                { 10 , 40 , 32 , 13 , 16 },
+                { 50 , 3 , 24 , 15 , 82 },
+                { 40 , 46 , 15 , 46 , 22  }
+            };
+        }
+
+
     }
 }
