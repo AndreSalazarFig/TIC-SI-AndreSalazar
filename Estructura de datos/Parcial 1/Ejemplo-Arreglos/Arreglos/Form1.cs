@@ -127,45 +127,45 @@ namespace Arreglos
                 new Ejemplos.Color {indice = "h", Valor="rojo" },
                 new Ejemplos.Color {indice = "i", Valor="Azul" },
                 new Ejemplos.Color {indice = "j", Valor="Verde" },
+                new Ejemplos.Color {indice = "z", Valor="Morado" }
             };
-            int cont = 0;
+            int cont = 0, ind = 0;
             string indice = "";
             string[] arreglo = new string[ArregloColores.Length];
             // Lectura arreglo de objetos
 
             foreach (Ejemplos.Color ColorActual in ArregloColores)
             {
-                MessageBox.Show("Índice = " + ColorActual.indice);
-                MessageBox.Show("Valor = " + ColorActual.Valor);
 
                 /* if( si hay ColorActual.Valor ¿En dónde ó existe en donde?){
                  * // Aumentar ¿Qué? y guardar ColorActual.indice ¿En dónde?
                  * } else{
                  * Agregar a ¿Dónde? para generar otra validación de existencia
                  * }*/
-                arreglo[cont] = "                     ";
 
-                arreglo[cont] = ColorActual.Valor + " tiene como índices: " + ColorActual.indice;
-                ArregloColores[cont].indice = "";
-                ArregloColores[cont].Valor = "";
-
-                for (int i = 0; i < ArregloColores.Length; i++)
+                foreach (string color in arreglo)
                 {
-                    if (arreglo[cont].Substring(0, ColorActual.Valor.Length) == ArregloColores[i].Valor)
-                    {
-                        arreglo[cont] += ", " + ArregloColores[i].indice;
-                        ArregloColores[cont].indice = "";
-                        ArregloColores[cont].Valor = "";
-                    }
+                    if (ColorActual.Valor == color) { cont++; }
                 }
-
-
-                cont++;
-            }
-
-            for (int i= 0; i < arreglo.Length; i++)
-            {
-                MessageBox.Show(arreglo[i]);
+                if (cont == 0)
+                {
+                    foreach (Ejemplos.Color Clr in ArregloColores)
+                    {
+                        if (Clr.Valor == ColorActual.Valor) { indice += Clr.indice + ", "; }
+                    }
+                    arreglo[ind] = ColorActual.Valor;
+                    if (indice.Length > 3)
+                    {
+                        MessageBox.Show(ColorActual.Valor + " tiene como índices: " + indice.Substring(0, indice.Length - 2));
+                    }
+                    else
+                    {
+                        MessageBox.Show(ColorActual.Valor + " tiene como índice: " + indice.Substring(0, indice.Length - 2));
+                    }
+                    ind++;
+                }
+                cont = 0;
+                indice = "";
             }
             // Mostrar y agrupar índices tomando en cuenta el valor de cada índice
             // Ejemplo: rojo Tiene "a", "t", "h"
