@@ -128,8 +128,12 @@ namespace Arreglos
                 new Ejemplos.Color {indice = "i", Valor="Azul" },
                 new Ejemplos.Color {indice = "j", Valor="Verde" },
                 new Ejemplos.Color {indice = "z", Valor="Morado" }
+                ,
+                new Ejemplos.Color {indice = "v", Valor="Rosa" },
+                new Ejemplos.Color {indice = "n", Valor="Naranja" }
             };
-            int cont = 0, ind = 0;
+            int c = 0;
+            int i = 0;
             string indice = "";
             string[] arreglo = new string[ArregloColores.Length];
             // Lectura arreglo de objetos
@@ -145,15 +149,14 @@ namespace Arreglos
 
                 foreach (string color in arreglo)
                 {
-                    if (ColorActual.Valor == color) { cont++; }
+                    if (ColorActual.Valor == color) { c++; }
                 }
-                if (cont == 0)
+                if (c == 0)
                 {
                     foreach (Ejemplos.Color Clr in ArregloColores)
                     {
                         if (Clr.Valor == ColorActual.Valor) { indice += Clr.indice + ", "; }
                     }
-                    arreglo[ind] = ColorActual.Valor;
                     if (indice.Length > 3)
                     {
                         MessageBox.Show(ColorActual.Valor + " tiene como índices: " + indice.Substring(0, indice.Length - 2));
@@ -162,9 +165,10 @@ namespace Arreglos
                     {
                         MessageBox.Show(ColorActual.Valor + " tiene como índice: " + indice.Substring(0, indice.Length - 2));
                     }
-                    ind++;
+                    arreglo[i] = ColorActual.Valor;
+                    i++;
                 }
-                cont = 0;
+                c = 0;
                 indice = "";
             }
             // Mostrar y agrupar índices tomando en cuenta el valor de cada índice

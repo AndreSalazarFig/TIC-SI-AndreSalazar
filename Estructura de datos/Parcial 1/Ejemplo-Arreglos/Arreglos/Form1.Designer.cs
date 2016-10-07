@@ -34,9 +34,9 @@
             // 
             // btnBoton
             // 
-            this.btnBoton.Location = new System.Drawing.Point(12, 12);
+            this.btnBoton.Location = new System.Drawing.Point(41, 12);
             this.btnBoton.Name = "btnBoton";
-            this.btnBoton.Size = new System.Drawing.Size(356, 115);
+            this.btnBoton.Size = new System.Drawing.Size(711, 212);
             this.btnBoton.TabIndex = 0;
             this.btnBoton.Text = "Botonzote";
             this.btnBoton.UseVisualStyleBackColor = true;
@@ -44,9 +44,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 133);
+            this.button1.Location = new System.Drawing.Point(41, 230);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(355, 138);
+            this.button1.Size = new System.Drawing.Size(711, 216);
             this.button1.TabIndex = 1;
             this.button1.Text = "IndiceChar";
             this.button1.UseVisualStyleBackColor = true;
@@ -56,7 +56,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(379, 281);
+            this.ClientSize = new System.Drawing.Size(795, 469);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnBoton);
             this.Name = "Form1";
